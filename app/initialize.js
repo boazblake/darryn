@@ -1,3 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-  require("./index.js")
+  console.log("loaded")
+
+  let btn = document.getElementById("home-btn")
+
+  btn.onclick = () => {
+    require("./index.js")
+  }
 })
